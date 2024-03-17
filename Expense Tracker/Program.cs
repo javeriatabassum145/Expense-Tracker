@@ -11,6 +11,9 @@ IConfigurationRoot configuration = new ConfigurationBuilder()
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 
+//Register Syncfusion license
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NBaF5cXmZCfUx0QXxbf1x0ZFRGallUTnNcUiweQnxTdEFjWn5ZcXRQQ2VfU0xwXw==");
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
