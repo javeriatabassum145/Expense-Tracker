@@ -1,6 +1,6 @@
-# Expense-Tracker-App-in-Asp.Net-Core-MVC
+# Expense Tracker App in Asp.Net Core MVC using SyncFusion Components 
 
-Expense Tracker App in Asp.Net Core MVC using SyncFusion Components (guided project).
+- Guided project
 
 ## Dashboard Main Page :
 ![image](https://github.com/javeriatabassum145/Expense-Tracker/assets/50498182/55fab360-64c8-4efb-af84-d97aa0b6f96d)
